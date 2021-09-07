@@ -1,0 +1,7 @@
+Circuit: * C:\Users\User\Documents\LTspiceXVII\learning.asc
+
+Error on line 1123 : .tf l1 v2
+	Syntax error: voltage or current expected.
+V2: Missing value, assumed 0V @ DC
+Direct Newton iteration for .op point succeeded.
+Fatal Error: Transfer function source (null) not in circuit
