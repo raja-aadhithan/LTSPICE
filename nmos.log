@@ -11,8 +11,8 @@ Vgs: Missing value, assumed 0V @ DC
 .step vgs=1.5
 .step vgs=1.8
 
-Date: Tue Sep 14 15:45:28 2021
-Total elapsed time: 0.148 seconds.
+Date: Mon Oct 18 11:36:41 2021
+Total elapsed time: 0.140 seconds.
 
 tnom = 27
 temp = 27
@@ -26,5 +26,5 @@ matrix size = 4
 fillins = 0
 solver = Normal
 Matrix Compiler1: 118 bytes object code size  0.1/0.1/[0.0]
-Matrix Compiler2: 216 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: 216 bytes object code size  0.1/0.1/[0.1]
 
