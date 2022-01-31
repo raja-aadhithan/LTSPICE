@@ -1,0 +1,24 @@
+Circuit: * C:\Users\User\Documents\LTspiceXVII\Inverter Transient.asc
+
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Width narrower than recommended for a level 1 MOSFET.
+V1: Missing value, assumed 0V @ DC
+.step v2=1.8
+
+Date: Fri Dec 24 16:22:59 2021
+Total elapsed time: 0.071 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 364
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 114 bytes object code size  0.0/0.1/[0.0]
+Matrix Compiler2: 301 bytes object code size  0.1/0.1/[0.1]
+

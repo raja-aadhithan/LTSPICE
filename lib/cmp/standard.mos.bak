@@ -1,4 +1,4 @@
-* Copyright © 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Linear Technology Corporation.   All rights reserved.
+* Copyright (c) 2000-2021 Analog Devices, Inc.   All rights reserved.
 *
 .model Si7336ADP VDMOS(Rg=3.5 Rd=1.2m Rs=800u mtriode=1.9 lambda=0.01 Vto=2.9 Ksubthres=100m Kp=280 Cgdmax=1.6n Cgdmin=200p A=1.5 Cgs=5.2n Cjo=3n M=.5 Is=5p Rb=3m mfg=Siliconix Vds=30 Ron=2.4m Qg=36n)
 .model BSP89 VDMOS(Rg=3 Rd=2.1 Rs=1.7 mtriode=.8 lambda=0.01 Vto=1.6 ksubthres=70m Kp=1.1 Cgdmax=300p Cgdmin=3p A=1 Cgs=70p Cjo=10p M=.25 Vj=.9 Is=600f Rb=.3 mfg=Infineon Vds=240 Ron=4.9 Qg=4.3n)
@@ -1056,12 +1056,12 @@
 .model AON6560 VDMOS(Kp=243.806 Rs=0.0 Rd=0.0001 Rg=1.2 Vto=2.41 mtriode=1.2 Ksubthres=.01 Lambda=0.71 Cgdmax=11990p Cgdmin=447p Cgs=8400p tt=55n A=0.1 Is=1.47E-11 N=1.008 Rb=0.0 M=1.585 Vj=5.34 Cjo=2500.0pF mfg=AOS Vds=30 Ron=.55m Qg=130n)
 .model PSMN040100MSE VDMOS(Rg=1.65 Vto=3.6 Rd=19.7m Rs=.1m Rb=3m Kp=5.5 Ksubthres=180m Mtriode=3 Lambda=10m Cgdmin=50p Cgdmax=1.3n A=.8 Cgs=1.2n Cjo=600p M=.5 Is=5e-13 VJ=100m N=1 mfg=NXP Vds=100 Ron=29.4m Qg=30n)
 .model PSMN075100MSE VDMOS(Rg=1.65 Vto=3.5 Rd=39m Rs=10m Rb=6m Kp=6 Ksubthres=160m Mtriode=3.2 Lambda=10m Cgdmin=40p Cgdmax=550p A=.8 Cgs=700p Cjo=300p M=.5 Is=3.2e-13 VJ=100m N=1 mfg=NXP Vds=100 Ron=57m Qg=16.4n)
-.model 3N163 VDMOS(pchan Vto=-3.0 Rd=10 Rs=100 Kp=4.0m Lambda=21m Cgdmin=0.2p Cgdmax=1.9p A=0.26 Cgs=1.9p  N=1.02 M=0.68 Cjo=3.5p Is=0.05p VJ=2.5 TT=24n ksubthres=150m mtriode=0.6 mfg=Linear_Systems Vds=40 Ron=400)
+.model 3N163 VDMOS(pchan Vto=-3.0 Rd=10 Rs=100 Kp=4.0m Lambda=21m Cgdmin=0.2p Cgdmax=1.9p A=0.26 Cgs=1.9p N=1.02 M=0.68 Cjo=3.5p Is=0.05p VJ=2.5 TT=24n ksubthres=150m mtriode=0.6 mfg=Linear_Systems Vds=40 Ron=400)
 .model IPT015N10N5 VDMOS(Rg=1.4 Vto=3.8 Rd=500u Rs=600u Rb=400u Mtriode=1.6 Kp=480 ksubthres=100m Lambda=.07 Cgdmin=1p Cgdmax=4n A=.5 Cgs=12n Cjo=9n M=.4 Is=60p VJ=.5 N=1.1 mfg=Infineon Vds=100 Ron=1.3m Qg=169n)
 .model PSMN3R7-100BSE VDMOS(Rg=1 Mtriode=1.53 Vto=3.6 ksubthres=80m theta=.01 Rd=.1m Rs=.1m Rb=.9m Kp=35 Lambda=.01 Cgdmin=120p Cgdmax=5n A=.5 Cgs=10n Cjo=5n M=0.45 Is=5p VJ=0.25 mfg=NXP Vds=100 Ron=3.36m Qg=176n)
 .model IRLML6402 VDMOS (pchan Vto=-0.55 Kp=12.79 Lambda=11.14m BV=20 IBV=0.25m Rd=0.1m Rs=24.67m Rg=29.22 Rb=0 Cjo=112p Cgs=520p Cgdmin=100p Cgdmax=140p Is=20.3n N=1.5 Vj=0.5 M=0.3 mfg=Infineon Vds=-20 Ron=65m Qg=8n)
 .model BSC022N04LS6 VDMOS(Rg=1.2 Vto=2.38 Rd=1.21m Rs=327u Rb=641u Kp=519.3 Lambda=0.09 Cgdmin=16p Cgdmax=0.39n A=0.6 Cgs=1.94n Cjo=0.76n M=0.68 Is=12.1p VJ=2.5 N=1.04 TT=3n ksubthres=.1 mfg=infineon Vds=40 Ron=2.2m Qg=28n)
-.model BSC059N04LS6 VDMOS(Rg=2.2 Vto=2.38 Rd=3.64m Rs=252u Rb=1.28m Kp=171 Lambda=0.09 Cgdmin=10p Cgdmax=0.12n A= 0.6 Cgs=0.64n Cjo=0.25n M=0.68 Is=4p VJ=2.5 N=1.04 TT=3n ksubthres=.1 mfg=infineon Vds=40 Ron=5.9m Qg=4.6n)
+.model BSC059N04LS6 VDMOS(Rg=2.2 Vto=2.38 Rd=3.64m Rs=252u Rb=1.28m Kp=171 Lambda=0.09 Cgdmin=10p Cgdmax=0.12n A=0.6 Cgs=0.64n Cjo=0.25n M=0.68 Is=4p VJ=2.5 N=1.04 TT=3n ksubthres=.1 mfg=infineon Vds=40 Ron=5.9m Qg=4.6n)
 .model AOTL66610 VDMOS(Kp=230 Rs=0.0 Rd=0.0001 Rg=1.65 Vto=3.92 mtriode=0.7 Ksubthres=.1 Lambda=0.20 Cgdmax=5884p Cgdmin=12p Cgs=7557p tt=53n A=1.36 Is=4.32E-12 N=1.005 Rb=0.000408 M=0.84 Vj=12.91 Cjo=5700.0pF mfg=AOS Vds=60 Ron=1m Qg=103n)
 .model AONR21321 VDMOS(pchan Kp=16.4601 RS=0.0033 Rd=0.0025 Rg=5.0 Vto=-1.9 mtriode=0.85 Ksubthres=0.01 Lambda=0.05 Cgdmax=657p Cggdmin=125p Cgs=1025p tt=14n Aa=0.46 Is=3.49E-12 N=1.048 Rb=0.005291 M=1.585 Vj=7.15 Cjo=180.0pF mfg=AOS Vds=-30 Ron=13.5m Qg=11n)
 .model AOB66916L VDMOS(Kp=151.3055 RS=0.0 Rd=0.002 Rg=1.5 Vto=3.8 mtriode=.8 Ksubthres=.1 Lambda=0.079 Cgdmax=844p Cgdmin=11p Cgs=6151p tt=65n A=0.36 Is=7.82E-13 N=0.939 Rb=0.003233 M=0.975 Vj=30.74 Cjo=4180.0pF mfg=AOS Vds=100 Ron=2.95m Qg=78n)
@@ -1098,7 +1098,7 @@
 .model AON7262E VDMOS(Kp=70 Rs=0.1m Rd=0.0029 Rg=1.3 Vto=1.98 mtriode=1.4 Ksubthres=.01 Lambda=0.024 Cgdmax=710p Cgdmin=1p Cgs=1600p tt=27n A=0.18 Is=6.15E-12 N=1.045 Rb=0.002307 BV=66 IBV=250u M=0.85 Vj=16.58 Cjo=1126.0pF mfg=AOS Vds=60 Ron=4.8m Qg=15n)
 .model AOL1454 VDMOS(Kp=46.9341 Rs=0.0049 Rd=0.0001 Rg=3.4 Vto=2.27 Lambda=0.015 Cgdmax=1198p Cgdmin=74p Cgs=1500p tt=45n A=0.85 Is=1.30E-14 N=0.836 Rb=0.008914 BV=40 IBV=1u M=0.489 Vj=0.91 Cjo=1019.0pF mfg=AOS Vds=40 Ron=7.5m Qg=10.5n)
 .model AONS66917 VDMOS(Kp=215 Rs=0.0007 Rd=0.0014 Rg=0.6 Vto=2.87 VtoTc=-2.34m Bex=-1.53 mtriode=2 Ksubthres=.09 Lambda=0.065 Cgdmax=977p Cgdmin=5p Cgs=5910p tt=62n A=0.12 Is=4.21E-12 N=1 Rb=0.0014 Eg=1.09 M=1.24 Vj=38.82 Cjo=3913.0pF mfg=AOS Vds=100 Ron=2.9m Qg=35n)
-.model AOB66914L VDMOS(Kp=147 Rs=100u Rd=0.0011 Rg=1.75 Vto=3.84  VtoTc=-4.2m mtriode=4.2 Ksubthres=.21 Lambda=0.052 Cgdmax=2409p Cgdmin=19p Cgs=12445p tt=79n A=0.48 Is=5.58E-11 N=1.155 Rb=1u M=1.388 Eg=1.049 Vj=39.13 Cjo=8445.0pF mfg=AOS Vds=100 Ron=2.2m Qg=48n)
+.model AOB66914L VDMOS(Kp=147 Rs=100u Rd=0.0011 Rg=1.75 Vto=3.84 VtoTc=-4.2m mtriode=4.2 Ksubthres=.21 Lambda=0.052 Cgdmax=2409p Cgdmin=19p Cgs=12445p tt=79n A=0.48 Is=5.58E-11 N=1.155 Rb=1u M=1.388 Eg=1.049 Vj=39.13 Cjo=8445.0pF mfg=AOS Vds=100 Ron=2.2m Qg=48n)
 .model AONS32100 VDMOS(Kp=225 Rs=50u Rd=200u Rg=1.4 Vto=1.67 VtoTc=-2.2m Bex=-1.15 mtriode=2 Ksubthres=0.1 Lambda=0.063 Cgdmax=5963p Cgdmin=1207p Cgs=13800p tt=36n A=0.49 Is=1.61E-10 N=1.035 Rb=1u Eg=1.03 Trb1=2.5m M=0.503 Vj=0.94 Cjo=2580.0pF mfg=AOS Vds=25 Ron=0.6m Qg=115n)
 .model AONS32310 VDMOS(Kp=225 Rs=50u Rd=0.0002 Rg=1.3 Vto=1.87 VtoTc=-3.1m Bex=-1.51 mtriode=1.7 Ksubthres=.1 Lambda=0.049 Cgdmax=4449p Cgdmin=724p Cgs=14450p tt=29n A=0.55 Is=0.89E-10 N=1.03 Rb=0.032m Eg=1.05 Trb1=0.25m M=0.342 Vj=0.17 Cjo=2460pF mfg=AOS Vds=30 Ron=0.8m Qg=110n)
 .model AON6154 VDMOS(Kp=583.3847 Rs=0.0 Rd=0.001 Rg=1.1 Vto=2.68 Lambda=0.06 Cgdmax=2082p Cgdmin=20p Cgs=6493p tt=32n A=0.57 Is=3.14E-12 N=0.944 Rb=0.003622 M=0.348 Vj=0.18 Cjo=4230.0pF mfg=AOS Vds=45 Ron=1.2m Qg=38n)
