@@ -1,21 +1,20 @@
 Circuit: * C:\Users\User\Documents\LTspiceXVII\Analog IC Design\CMOS Inverter\Cmos DC\cmos inv.asc
 
-Direct Newton iteration for .op point succeeded.
 
-Date: Mon Jan 31 16:43:35 2022
-Total elapsed time: 0.094 seconds.
+Date: Thu Feb 03 19:14:26 2022
+Total elapsed time: 0.125 seconds.
 
 tnom = 27
 temp = 27
-method = modified trap
-totiter = 849
-traniter = 839
-tranpoints = 366
-accept = 266
-rejected = 100
+method = trap
+totiter = 3607
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
 matrix size = 13
 fillins = 0
 solver = Normal
-Matrix Compiler1: 996 bytes object code size  0.4/0.2/[0.1]
+Matrix Compiler1: 996 bytes object code size  0.5/0.2/[0.1]
 Matrix Compiler2: 1.30 KB object code size  0.2/0.3/[0.2]
 
