@@ -4,9 +4,32 @@ WARNING: Node OUT is floating.
 
 WARNING: Less than two connections to node OUT.  This node is used by C2.
 Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m1
+Model:        n_1u
+Id:          1.50e-03
+Vgs:         6.00e-01
+Vds:         3.00e-01
+Vbs:         0.00e+00
+Vth:         4.02e-01
+Vdsat:       2.05e-01
+Gm:          1.06e-02
+Gds:         2.92e-04
+Gmb:         2.41e-03
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       8.32e-14
+Cgdov:       8.32e-14
+Cgbov:       8.00e-17
+Cgs:         3.83e-13
+Cgd:         0.00e+00
+Cgb:         0.00e+00
 
-Date: Mon Feb 07 16:19:46 2022
-Total elapsed time: 0.089 seconds.
+
+
+Date: Mon Feb 28 10:46:17 2022
+Total elapsed time: 0.062 seconds.
 
 tnom = 27
 temp = 27
@@ -19,5 +42,5 @@ rejected = 0
 matrix size = 7
 fillins = 0
 solver = Normal
-Matrix Compiler1:      13 opcodes
+Matrix Compiler1: 214 bytes object code size
 Matrix Compiler2: 487 bytes object code size
