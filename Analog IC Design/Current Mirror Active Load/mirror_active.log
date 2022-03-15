@@ -1,0 +1,30 @@
+Circuit: * C:\Users\User\Documents\LTspiceXVII\Analog IC Design\Current Mirror Active Load\mirror_active.asc
+
+WARNING: Node VY is floating.
+WARNING: Node N006 is floating.
+WARNING: Node N008 is floating.
+WARNING: Node VX is floating.
+
+WARNING: Less than two connections to node VY.  This node is used by C1.
+WARNING: Less than two connections to node VX.  This node is used by C4.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Mar 14 11:58:23 2022
+Total elapsed time: 0.110 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2078
+traniter = 2034
+tranpoints = 1018
+accept = 1018
+rejected = 0
+matrix size = 17
+fillins = 15
+solver = Normal
+Matrix Compiler1: 1.42 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.4/0.3
+
